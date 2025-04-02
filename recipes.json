@@ -1,0 +1,132 @@
+[
+    {
+      "id": "tomato-pasta-classic",
+      "title": "Classic Tomato Pasta",
+      "description": "A simple, timeless Italian pasta dish perfect for any night. Rich tomato sauce with fresh basil.",
+      "image": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG9tYXRvJTIwcGFzdGF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "200g Spaghetti", "1 tbsp Olive Oil", "2 cloves Garlic, minced", "400g Canned Chopped Tomatoes", "1 tsp Dried Oregano", "Handful Fresh Basil", "Salt & Pepper", "Parmesan Cheese (optional)"
+      ],
+      "instructions": [
+        "Cook pasta per package directions. Reserve pasta water.", "Heat oil, sauté garlic.", "Add tomatoes, oregano, salt, pepper. Simmer 10-15 mins.", "Stir in pasta, basil. Add pasta water if needed.", "Serve with Parmesan."
+      ],
+      "prepTime": 10, "cookTime": 20, "difficulty": "Easy", "cuisine": "Italian", "tags": ["pasta", "vegetarian", "quick", "italian", "dinner"]
+    },
+    {
+      "id": "chicken-curry-simple",
+      "title": "Simple Chicken Curry",
+      "description": "A flavorful and comforting Indian chicken curry that's surprisingly easy to make.",
+      "image": "https://images.unsplash.com/photo-1604329763689-3b27d20579c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMGN1cnJ5fGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "1 tbsp Veg Oil", "1 Onion, chopped", "2 cloves Garlic", "1 tbsp Ginger", "500g Chicken Breast, cubed", "2 tbsp Curry Powder", "400ml Coconut Milk", "100ml Chicken Broth", "Salt", "Fresh Cilantro"
+      ],
+      "instructions": [
+        "Heat oil, sauté onion.", "Add garlic, ginger.", "Add chicken, brown lightly.", "Stir in curry powder.", "Add coconut milk, broth. Simmer.", "Cook 15-20 mins until chicken done.", "Season, garnish with cilantro."
+      ],
+      "prepTime": 15, "cookTime": 25, "difficulty": "Medium", "cuisine": "Indian", "tags": ["chicken", "curry", "indian", "dinner", "gluten-free"]
+    },
+    {
+      "id": "choc-chip-cookies",
+      "title": "Chewy Chocolate Chip Cookies",
+      "description": "The ultimate chewy classic American chocolate chip cookies.",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvY29sYXRlJTIwY2hpcCUyMGNvb2tpZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "2 1/4 cups Flour", "1 tsp Baking Soda", "1 tsp Salt", "1 cup Butter, softened", "3/4 cup Sugar", "3/4 cup Brown Sugar", "1 tsp Vanilla", "2 Large Eggs", "2 cups Chocolate Chips"
+      ],
+      "instructions": [
+        "Preheat oven 375°F (190°C). Whisk dry ingredients.", "Cream butter & sugars.", "Beat in eggs & vanilla.", "Mix in dry ingredients.", "Stir in chips.", "Drop spoonfuls onto baking sheet.", "Bake 9-11 mins.", "Cool slightly on sheet, then wire rack."
+      ],
+      "prepTime": 20, "cookTime": 10, "difficulty": "Easy", "cuisine": "American", "tags": ["dessert", "baking", "cookies", "sweet", "vegetarian"]
+    },
+    {
+      "id": "guacamole-fresh",
+      "title": "Fresh Homemade Guacamole",
+      "description": "Quick, easy, and incredibly fresh Mexican guacamole. Perfect dip or topping.",
+      "image": "https://images.unsplash.com/photo-1599805960574-a7d50b6446a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3VhY2Ftb2xlfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "3 Ripe Avocados", "1/2 Small Red Onion, chopped", "1-2 Roma Tomatoes, diced", "1 Jalapeño, minced (optional)", "1/4 cup Fresh Cilantro, chopped", "1 Lime, juiced", "1/2 tsp Salt", "Pinch Cumin (optional)"
+      ],
+      "instructions": [
+        "Mash avocados.", "Add onion, tomatoes, jalapeño, cilantro.", "Stir in lime juice, salt, cumin.", "Mix gently.", "Taste and adjust seasoning.", "Serve immediately."
+      ],
+      "prepTime": 15, "cookTime": 0, "difficulty": "Easy", "cuisine": "Mexican", "tags": ["appetizer", "dip", "mexican", "vegetarian", "gluten-free", "quick", "no-cook"]
+    },
+    {
+      "id": "thai-green-curry",
+      "title": "Thai Green Curry with Tofu",
+      "description": "A fragrant and spicy Thai green curry made with tofu and vegetables.",
+      "image": "https://images.unsplash.com/photo-1564844538674-ce3748c6f355?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGhhaSUyMGdyZWVuJTIwY3Vycnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "1 tbsp Coconut Oil", "2-3 tbsp Green Curry Paste", "400ml Coconut Milk", "200g Firm Tofu, cubed", "1 cup Broccoli Florets", "1 Red Bell Pepper, sliced", "1 cup Snap Peas", "1 tbsp Soy Sauce", "1 tsp Sugar", "Fresh Basil Leaves", "Lime Wedges"
+      ],
+      "instructions": [
+        "Heat oil, fry curry paste until fragrant (1-2 min).", "Stir in coconut milk, bring to simmer.", "Add tofu, broccoli, bell pepper. Simmer 5-7 min.", "Add snap peas, soy sauce, sugar. Cook 2 min more.", "Stir in basil leaves.", "Serve hot with rice and lime wedges."
+      ],
+      "prepTime": 15, "cookTime": 20, "difficulty": "Medium", "cuisine": "Thai", "tags": ["thai", "curry", "vegetarian", "vegan", "spicy", "dinner", "tofu"]
+    },
+    {
+      "id": "french-onion-soup",
+      "title": "Classic French Onion Soup",
+      "description": "Rich and savory French onion soup topped with crusty bread and melted Gruyère cheese.",
+      "image": "https://images.unsplash.com/photo-1543481131-665276a1939a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlbmNoJTIwb25pb24lMjBzb3VwfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "4 Large Onions, thinly sliced", "3 tbsp Butter", "1 tbsp Olive Oil", "1 tsp Sugar", "1/2 cup Dry White Wine (optional)", "6 cups Beef Broth", "Salt & Pepper", "Baguette slices, toasted", "Gruyère Cheese, grated"
+      ],
+      "instructions": [
+        "Melt butter and oil in large pot.", "Add onions and sugar. Cook low & slow until deeply caramelized (30-45 min).", "Deglaze with white wine if using, scraping bottom.", "Add beef broth, salt, pepper. Simmer 20 min.", "Ladle soup into oven-safe bowls.", "Top with toasted baguette slice, cover generously with cheese.", "Broil until cheese is melted and bubbly."
+      ],
+      "prepTime": 15, "cookTime": 60, "difficulty": "Medium", "cuisine": "French", "tags": ["soup", "french", "comfort food", "appetizer", "cheese"]
+    },
+    {
+      "id": "greek-salad",
+      "title": "Authentic Greek Salad (Horiatiki)",
+      "description": "A refreshing and simple Greek salad with tomatoes, cucumber, olives, feta, and oregano.",
+      "image": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZWslMjBzYWxhZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "3 Large Tomatoes, cut into wedges", "1 Cucumber, sliced", "1 Green Bell Pepper, sliced", "1/2 Red Onion, thinly sliced", "1/2 cup Kalamata Olives", "200g Feta Cheese block", "Dried Oregano", "Extra Virgin Olive Oil", "Red Wine Vinegar (optional)"
+      ],
+      "instructions": [
+        "Combine tomatoes, cucumber, pepper, onion, olives in a large bowl.", "Place the block of feta cheese on top (or crumble if preferred).", "Sprinkle generously with dried oregano.", "Drizzle liberally with extra virgin olive oil.", "Optionally, add a splash of red wine vinegar.", "Toss gently just before serving or serve as is."
+      ],
+      "prepTime": 15, "cookTime": 0, "difficulty": "Easy", "cuisine": "Greek", "tags": ["salad", "greek", "vegetarian", "gluten-free", "fresh", "no-cook", "healthy"]
+    },
+    {
+      "id": "japanese-ramen",
+      "title": "Quick Miso Ramen",
+      "description": "A simplified yet flavorful Japanese miso ramen bowl you can make at home.",
+      "image": "https://images.unsplash.com/photo-1557872943-16a5ac26437e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFtZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "2 packs Instant Ramen Noodles (discard seasoning)", "4 cups Chicken or Vegetable Broth", "2 tbsp Miso Paste", "1 tbsp Soy Sauce", "1 tsp Sesame Oil", "Toppings: Sliced Pork/Chicken/Tofu, Soft-boiled Egg, Corn, Green Onions, Nori sheets"
+      ],
+      "instructions": [
+        "Cook ramen noodles according to package, drain.", "In a pot, bring broth to a simmer.", "Whisk in miso paste until dissolved (don't boil rapidly).", "Stir in soy sauce and sesame oil.", "Divide noodles into bowls.", "Pour hot broth over noodles.", "Arrange your desired toppings.", "Serve immediately."
+      ],
+      "prepTime": 10, "cookTime": 15, "difficulty": "Easy", "cuisine": "Japanese", "tags": ["ramen", "japanese", "soup", "noodles", "quick", "dinner"]
+    },
+     {
+      "id": "spanish-paella-mix",
+      "title": "Mixed Paella (Paella Mixta)",
+      "description": "A vibrant Spanish rice dish featuring a mix of seafood, chicken, and vegetables.",
+      "image": "https://images.unsplash.com/photo-1598511800354-c876a2d7a6a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFlbGxhfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "1 tbsp Olive Oil", "2 Chicken Thighs, chopped", "100g Chorizo, sliced", "1 Onion, chopped", "2 cloves Garlic", "1 Red Bell Pepper, chopped", "1 cup Paella Rice (Bomba or Arborio)", "Pinch Saffron Threads", "1 tsp Smoked Paprika", "4 cups Chicken Broth, hot", "100g Shrimp, peeled", "100g Mussels, cleaned", "1/2 cup Peas", "Lemon Wedges"
+      ],
+      "instructions": [
+        "Heat oil in paella pan. Brown chicken & chorizo, remove.", "Sauté onion, garlic, pepper.", "Add rice, toast 1 min. Stir in saffron & paprika.", "Return chicken/chorizo. Pour in hot broth. Bring to boil, then simmer.", "Do NOT stir after this point. Cook 15 min.", "Arrange shrimp, mussels, peas on top. Cook 5-8 min more until liquid absorbed & seafood cooked.", "Rest 5 min, covered loosely. Serve with lemon."
+      ],
+      "prepTime": 20, "cookTime": 40, "difficulty": "Hard", "cuisine": "Spanish", "tags": ["paella", "spanish", "rice", "seafood", "chicken", "dinner", "one-pan"]
+    },
+     {
+      "id": "vietnamese-pho-bo",
+      "title": "Vietnamese Beef Pho (Phở Bò)",
+      "description": "Aromatic Vietnamese noodle soup with rich beef broth, rice noodles, and thinly sliced beef.",
+      "image": "https://images.unsplash.com/photo-1585109649407-a4042196b60e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvJTIwc291cHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "ingredients": [
+        "Beef Bones & Knuckles (for broth)", "1 Onion, charred", "1 piece Ginger, charred", "Pho Spices (Star Anise, Cinnamon, Cloves, Cardamom)", "Fish Sauce", "Sugar", "Salt", "Rice Noodles", "Thinly Sliced Raw Beef (Sirloin/Eye Round)", "Garnishes: Bean Sprouts, Thai Basil, Cilantro, Lime, Jalapeño, Hoisin, Sriracha"
+      ],
+      "instructions": [
+        "Parboil bones, rinse. Simmer bones, charred onion/ginger, spices in water for hours (or use quality store-bought broth & simmer with aromatics 1hr).", "Season broth with fish sauce, sugar, salt.", "Cook rice noodles.", "Place noodles in bowl. Top with raw beef slices.", "Ladle boiling hot broth over beef to cook it.", "Serve immediately with side plate of fresh garnishes."
+      ],
+      "prepTime": 30, "cookTime": 180, "difficulty": "Hard", "cuisine": "Vietnamese", "tags": ["pho", "vietnamese", "soup", "noodles", "beef", "dinner", "gluten-free"]
+    }
+  ]

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Flavors - Enhanced Recipe Book</title>
+
+    <!-- Fonts: Poppins & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Icons: Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Your Enhanced CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class=""> <!-- Dark mode class added here by JS -->
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-utensils logo-icon"></i> Global<span class="highlight">Flavors</span></h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#" class="nav-link active" data-section="home"><i class="fas fa-home fa-fw"></i> <span>Home</span></a></li>
+                    <li><a href="#" class="nav-link" data-section="favorites"><i class="fas fa-heart fa-fw"></i> <span>Favorites</span></a></li>
+                    <li><a href="#" class="nav-link" data-section="profile"><i class="fas fa-user fa-fw"></i> <span>Profile</span></a></li>
+                    <li><a href="#" class="nav-link" data-section="contact"><i class="fas fa-envelope fa-fw"></i> <span>Contact</span></a></li>
+                    <li><a href="#" class="nav-link" data-section="about"><i class="fas fa-info-circle fa-fw"></i> <span>About</span></a></li>
+                </ul>
+            </nav>
+            <footer class="sidebar-footer">
+                 <!-- Dark Mode Toggle -->
+                 <div class="dark-mode-toggle">
+                     <label for="darkModeSwitch" class="toggle-label">
+                        <i class="fas fa-moon"></i> Dark Mode <i class="fas fa-sun"></i>
+                    </label>
+                    <label class="switch">
+                        <input type="checkbox" id="darkModeSwitch" aria-label="Toggle Dark Mode">
+                        <span class="slider round"></span>
+                    </label>
+                 </div>
+                <p>© <span id="year"></span> GlobalFlavors</p>
+            </footer>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="main-header">
+                <h1 id="main-title">Explore World Cuisines</h1>
+                <div class="header-controls">
+                     <!-- Random Recipe Button -->
+                    <button id="randomRecipeBtn" class="btn btn-secondary" aria-label="Show a random recipe">
+                        <i class="fas fa-random"></i> Feeling Lucky?
+                    </button>
+                    <!-- Search Container -->
+                    <div class="search-container">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="search" id="searchInput" placeholder="Search recipes...">
+                        <button id="clearSearchBtn" class="clear-search-btn" aria-label="Clear search" style="display: none;">×</button>
+                    </div>
+                </div>
+            </header>
+
+             <!-- Filter & Sort Controls -->
+            <div class="controls-bar">
+                <div class="filter-control">
+                    <label for="countryFilter"><i class="fas fa-filter"></i> Filter by Country:</label>
+                    <select id="countryFilter">
+                        <option value="all">All Countries</option>
+                        <!-- Options populated by JS -->
+                    </select>
+                </div>
+                <div class="sort-control">
+                    <label for="sortOptions"><i class="fas fa-sort-alpha-down"></i> Sort by:</label>
+                    <select id="sortOptions">
+                        <option value="default">Default</option>
+                        <option value="az">Name (A-Z)</option>
+                        <option value="za">Name (Z-A)</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <!-- Content Sections -->
+            <section id="home-section" class="content-section active-section">
+                <h2><i class="fas fa-globe-americas"></i> All Recipes</h2>
+                <div id="recipeGrid" class="recipe-grid">
+                    <!-- Skeleton loaders initially, then Recipe cards -->
+                </div>
+            </section>
+
+            <section id="favorites-section" class="content-section">
+                <h2><i class="fas fa-heart-circle-check"></i> My Favorite Recipes</h2>
+                 <div id="favoriteRecipeGrid" class="recipe-grid">
+                     <!-- Favorite recipe cards dynamically loaded -->
+                 </div>
+            </section>
+
+            <!-- Other sections remain largely the same structurally -->
+            <section id="profile-section" class="content-section">
+                 <h2><i class="fas fa-user-cog"></i> User Profile</h2>
+                <div class="profile-content placeholder-content card-style">
+                    <i class="fas fa-user-circle fa-4x"></i>
+                    <h3>Your Name Here</h3>
+                    <p>Email: your.email@example.com</p>
+                    <p>This is a placeholder. Profile functionality requires a backend.</p>
+                    <button class="btn btn-primary">Edit Profile (N/A)</button>
+                </div>
+            </section>
+             <section id="contact-section" class="content-section">
+                <h2><i class="fas fa-paper-plane"></i> Get In Touch</h2>
+                 <form class="contact-form card-style">
+                    <div class="form-group">
+                        <label for="name"><i class="fas fa-user-tag"></i> Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="email"><i class="fas fa-at"></i> Email:</label>
+                        <input type="email" id="email" name="email" required>
+                     </div>
+                    <div class="form-group">
+                        <label for="message"><i class="fas fa-comment-dots"></i> Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-check-circle"></i> Send Message</button>
+                    <p class="form-note">Note: This is a demo form.</p>
+                </form>
+            </section>
+            <section id="about-section" class="content-section">
+                 <h2><i class="fas fa-book-open-reader"></i> About GlobalFlavors</h2>
+                <div class="about-content card-style">
+                    <p>Welcome to <strong>GlobalFlavors</strong> V2! Your enhanced interactive passport to the world's kitchen.</p>
+                    <p>Built with modern HTML, CSS, and JavaScript, featuring:</p>
+                    <ul>
+                        <li>Recipe Detail Modal</li>
+                        <li>Dark Mode Toggle</li>
+                        <li>Country Filtering & Sorting</li>
+                         <li>Real-time Search</li>
+                        <li>Persistent Favorites (via LocalStorage)</li>
+                        <li>Stylish & Responsive Design with Loaders</li>
+                    </ul>
+                     <p><em>Created as a demonstration project.</em></p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Recipe Detail Modal -->
+    <div id="recipeModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+        <div class="modal-overlay" tabindex="-1" data-close-modal></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal" data-close-modal>×</button>
+            <img id="modalImage" src="" alt="Recipe Image" class="modal-image">
+            <div class="modal-header-content">
+                 <h3 id="modalTitle">Recipe Title</h3>
+                <span id="modalCountry" class="country-badge modal-country-badge">Country</span>
+            </div>
+            <div class="modal-body">
+                <h4><i class="fas fa-carrot"></i> Ingredients:</h4>
+                <ul id="modalIngredients">
+                    <!-- Ingredient list populated by JS -->
+                </ul>
+                <h4><i class="fas fa-utensil-spoon"></i> Instructions:</h4>
+                <p id="modalInstructions">
+                    <!-- Instructions populated by JS -->
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-close-modal>Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Your Enhanced JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
